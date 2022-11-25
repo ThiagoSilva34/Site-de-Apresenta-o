@@ -1,0 +1,315 @@
+* {
+   
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    text-decoration: crimson;
+    height: 100vh;
+    background-image:url(../img/Fundo/om.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.quadro {
+    width: 800px;
+    height: 500px;
+    border: orange solid 5px;
+    margin: auto;  
+    border-radius: 20px;
+ overflow: hidden;
+ min-width: 320px;
+}
+   
+.info {
+    width: 205px;
+    height: 50px;
+    
+   
+    border-bottom: orange solid 5px;
+    border-right: orange solid 5px;
+   
+   
+}
+.test {
+   position: absolute;
+   
+ }
+
+/*navbar*/
+
+.textinfo {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 23px;
+margin-left: 30px;
+padding-bottom: 30px;   
+}
+ .lista {
+  margin-left: 20px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+ }
+
+ .navbar {
+   position: relative;
+   border-radius: 20px;
+  
+   height: 500px;
+   width: 202px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   
+}
+
+.navbar ul{
+   margin-top: -270px;
+   
+ } 
+
+ .navbar ul li {
+    list-style-type: none;
+    border-bottom: orange solid 2px;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-top: 0px;
+ }
+
+ .navbar ul li button {
+   height: 40px;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   text-align: left;
+  
+   background-color:transparent;
+   font-size: xx-large;
+   border: none;
+   cursor: pointer;
+  
+}
+
+.navbar ul li i {
+
+   color: orange;
+   font-size: 25px;
+   position: absolute;
+   
+}
+
+ .titulo {
+    font-size: 14px;
+    margin-left: 40px;
+    
+ }
+
+ /* funcionamento da navbar */
+
+ .navbar ul li.active-list i {
+    opacity: 1;        
+ }
+ .navbar ul li.active-list button {
+   
+   border-bottom: orange solid 4px;
+   background-color: lightgrey;
+ }
+
+ .activeIcon {
+    opacity: 0;
+ }
+ .MouseOver {
+   background-color: lightgrey;
+
+ }
+
+ /* conteúdo */
+
+ .inst {
+    text-align: center;
+    width: 590px;
+    height: 490px;
+    position: absolute;
+    margin-left: 200px;
+    border-left: orange solid 5px;
+    margin-top: 4px;
+      
+ }
+ .conteudo {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 40px;
+  
+ }
+
+.Tinst {
+   padding-top: 50px;
+   font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ .text {
+   text-align: center;
+   width: 590px;
+   height: 430px;
+   position: absolute;
+   margin-left: 200px;
+   padding-top: 60px;
+   display:block;
+ }
+ .link1{
+   text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: orange solid 3px;
+   border-radius: 20px;
+   position: absolute;
+   padding:15px;
+  margin-top: 15px;
+   margin-left: -55px;
+
+ }
+ .open {
+   display:none;
+  
+ }
+
+ .cont {
+   
+margin-bottom: 2px;
+ margin-top: 13px;
+ 
+ 
+ }
+
+
+ .icon {
+   width: 45px;
+   height: 45px;
+   position: absolute;
+   margin-left: -55px;
+   margin-top: -10px;
+ }
+ .iconl {
+   width: 55px;
+   height: 55px;
+   position: absolute;
+   margin-left: -55px;
+   margin-top: -15px;
+ }
+.contsob {
+   width: 590px;
+   height: 480px;
+  
+   font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+ margin-top: 50px;
+text-align: center;
+}
+
+.Linguagens {
+   padding-top: 50px;
+   
+}
+.p{
+position: absolute;
+height: 50px;
+margin-left: 100px;
+text-align: center;
+text-decoration: crimson; 
+
+}
+ 
+.htm{
+   width: 110px;
+   height: 40px;
+   padding-left: 5px;
+   padding-bottom: 15px;
+   margin-bottom: 12px;
+   border: orange solid 3px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .css3 {
+      padding-left: 130px;
+      padding-right: 40px;
+      width: 200px;
+       height: 40px;
+      padding-bottom: 15px;
+      margin-bottom: 12px;
+      border: orange solid 4px;
+   
+      
+      
+    }
+    .javascript1{
+      
+      padding-left: 190px;
+      
+      width: 330px;
+       height: 40px;
+      padding-bottom: 15px;
+      margin-bottom: 12px;
+      border: orange solid 4px;
+      
+      
+      
+   }
+/* goku animation */
+
+.img1  {
+  position: absolute;
+  margin-top: 50px;
+     width: 170px;
+     height:170px;
+     animation: goku 3s infinite alternate-reverse;
+  
+  }
+
+  .img2  {
+     position: absolute;
+     width: 119px;
+     height: 98px;
+    
+    animation: clouds 3s infinite linear;
+    overflow: hidden;
+  }
+.inv {
+  display: none;
+  width: 1000px;
+}
+
+animation {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  border: orange solid 5px;
+  overflow: hidden  ;
+}
+
+ /* animações*/
+
+@keyframes clouds {
+  from {
+     right: -100px;
+
+  }
+  to {
+     right: 100%;
+  }
+  
+}
+@keyframes goku {
+  from {
+     right: 13px;
+
+  }
+  to {
+     right: 43px;
+  }
+  
+}
